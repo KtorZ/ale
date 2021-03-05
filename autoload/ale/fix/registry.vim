@@ -430,6 +430,11 @@ let s:default_registry = {
 \       'function': 'ale#fixers#ormolu#Fix',
 \       'suggested_filetypes': ['haskell'],
 \       'description': 'A formatter for Haskell source code.',
+\   },
+\   'fourmolu': {
+\       'function': 'ale#fixers#fourmolu#Fix',
+\       'suggested_filetypes': ['haskell'],
+\       'description': 'Fourmolu is a formatter for Haskell source code. It is a fork of Ormolu, with the intention to continue to merge upstream improvements.',
 \   }
 \}
 
